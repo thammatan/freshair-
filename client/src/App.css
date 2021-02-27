@@ -24,7 +24,7 @@ a, body, button, div, h1, h2, h3, h4, h5, h6, i, input, li, p, small, span, ul {
   }
 }
 .App-layout {
-    max-width: 920px;
+   
     background-color: white;
     flex: 1 1;
     display: flex;
@@ -41,7 +41,7 @@ a, body, button, div, h1, h2, h3, h4, h5, h6, i, input, li, p, small, span, ul {
   left: auto;
 }
 .App-content {
-  max-width: 960px;
+  max-width: 920px;
   background-color: white;
   display: flex;
   flex-direction: column;

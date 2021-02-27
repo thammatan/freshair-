@@ -77,23 +77,20 @@ function App() {
   };
   return (
     <Layout className="App-layout" >
-      <Header className="App-header">
+      <Header className="App-header" >
         <img
+          style={{width:80,height:80}}
           src="https://res.cloudinary.com/callmebunbun/f_auto,c_limit,w_96,q_auto/tectony/Logo_air_ql74ln.psd"
           alt="logo">
         </img>
       </Header>
-
       <Content className="App-content" style={{padding:24}}>
-
         <MyContainer title="Fresh Air Solution" detail="อากาศสะอาดที่คุณสร้างเองได้"
           component={<div>
-            <iframe
-              id="d6c1f27d-6a27-4c7e-bd7d-bd19d7faa56c"
-              src="https://www.vectary.com/viewer/v1/?model=d6c1f27d-6a27-4c7e-bd7d-bd19d7faa56c&turntable=-2"
-              frameborder="0"
-              width="100%"
-              height="480">
+            <iframe id="fcc02cf4-6b4b-47ba-8359-484940a432d5" src="https://www.vectary.com/viewer/v1/?model=a76a61a2-e2a8-49d8-9087-76c470787299&amp;env=studio3&amp;turntable=7" 
+            frameborder="0" 
+            width="100%" 
+            height="480">
             </iframe>
           </div>}
         />
